@@ -110,7 +110,7 @@ public class ShoppingCart {
         browserUtils.waitFor(2);
         seller1 = Driver.get().findElement(By.xpath("//span[@class='seller']/span[2]/a")).getText();
         productPage.firstSellerAddtoCartButton.click();
-        browserUtils.waitForClickablility(productPage.closeAddedItemButton,5);
+        browserUtils.waitForClickablility(productPage.closeAddedItemButton,6);
         productPage.closeAddedItemButton.click();
         browserUtils.waitFor(2);
 
@@ -121,11 +121,11 @@ public class ShoppingCart {
 
         browserUtils.waitFor(2);
         seller2 = Driver.get().findElement(By.xpath("//div[@class='marketplace-list']/table/tbody/tr[1]/td[1]/div[1]/a[1]")).getText();
-        browserUtils.waitForClickablility(productPage.secondSellerAddtoCartButton,5);
+        browserUtils.waitForClickablility(productPage.secondSellerAddtoCartButton,6);
         productPage.secondSellerAddtoCartButton.click();
-        browserUtils.waitForClickablility(productPage.closePopupButton,5);
+        browserUtils.waitForClickablility(productPage.closePopupButton,6);
         productPage.closePopupButton.click();
-        browserUtils.waitForClickablility(productPage.closeAddedItemButton,5);
+        browserUtils.waitForClickablility(productPage.closeAddedItemButton,6);
         productPage.closeAddedItemButton.click();
 
     }

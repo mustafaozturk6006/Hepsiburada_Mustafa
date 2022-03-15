@@ -16,7 +16,7 @@ public class ProductPage {
     @FindBy(xpath = "//*[@class='button big with-icon']")
     public WebElement firstSellerAddtoCartButton;
 
-    @FindBy(xpath = "//div[@class='marketplace-list']/table/tbody//td[3]/div[@class='addToCart'][1]")
+    @FindBy(xpath = "(//div[@class='marketplace-list']/table/tbody//td[3]/div[@class='addToCart'])[1]")
     public WebElement secondSellerAddtoCartButton;
 
     @FindBy(xpath = "//checkoutui-Modal-2iZXl")
